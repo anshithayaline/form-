@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> DOCTOR APPOINTMENT</h1>
+    <form>
+          <fieldset>
+            <legend>PATIENT INFORMATION</legend>
+
+            <label>your name:</label>
+            <input type="text" id="name" placeholder="your name" >
+            <br><br>
+            <label>
+                email:
+            </label>
+            <input type="email"id="email">
+            <br><br>
+            <label> age:</label>
+            <input type="number">
+            <br><br>
+            <label> gender:</label>
+            
+            <input type="radio" value="male">male
+            <input type="radio" value="female">female
+          </fieldset>
+          <fieldset>
+            <legend>blood group</legend>
+
+            <label>blood group:</label>
+            <select name="bloodgroup" id="bg">
+                <option value="A+">A+</option>
+                <option value="AB+">AB+</option>
+                <option value="B+">B+</option>
+                <option value="O+">O+</option>
+                <option value="B-">B-</option>
+            </select>
+            <br><br>
+
+            <label>specialist:</label>
+            <input type="checkbox" name="reason" value="eye test">eye test
+            <input type="checkbox" name="reason" value="ortho">ortho
+            <input type="checkbox" name="reason" value="generaldr.">general dr.
+            <br><br>
+             <label>DOCTOR:</label>
+            <select  id="DOCTOR">
+                <option value="dr. asvita">dr.asvita</option>
+                <option value="dr. ajit">dr.ajit</option>
+                option value="dr. ram">dr.ram</option>
+            </select>
+
+
+          </fieldset>
+
+          <fieldset>
+            <legend>REASON</legend>
+
+            <label>PATIENT REMARK</label>
+            <textarea name="REMARK" id="rmk" rows="6" cols="8" placeholder="PATIENT's REMARK for the DOCTOR"></textarea>
+
+          </fieldset><br>
+
+          <button> submit</button>
+
+    </form>
+</body>
+</html>
